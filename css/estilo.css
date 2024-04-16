@@ -1,0 +1,42 @@
+
+.carousel-item
+{
+
+    max-height: 600px;
+}
+
+.card-body{
+    background: #646467;
+}
+
+.card-title{
+    color:rgb(38, 35, 49);
+    font-family:Calibri ;
+}
+
+.precio-juego
+{color:#ffffff}
+
+.body {
+    background-color: #1b2838;
+    color: #fff;
+    font-family: Arial, sans-serif;
+  }
+  .navbar {
+    background-color: #171a21;
+  }
+  .navbar-brand {
+    color: #fff;
+  }
+  .jumbotron {
+    background-color: #171a21;
+    color: #fff;
+    text-align: center;
+  }
+  .card {
+    background-color: #2e3a4e;
+    color: #fff;
+  }
+
+
+

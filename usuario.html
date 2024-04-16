@@ -1,0 +1,116 @@
+<!DOCTYPE html>
+<html lang="es">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>keysGaming</title>
+    <!-- Latest compiled and minified CSS -->
+    <link href="css/bootstrap.min.css" rel="stylesheet">
+
+    <!-- Latest compiled JavaScript -->
+    <script src="js/bootstrap.bundle.min.js"></script>
+    <link rel="stylesheet" href="css/estilo.css">
+</head> 
+
+<body>
+    <div class="container-fluid bg-light">
+    <nav class="navbar navbar-expand-sm navbar-dark bg-dark">
+        <div class="container">
+
+            <a class="navbar-brand" href="#">
+                <img src="img/pclogo.png" alt="logo pagina" style="width:80px;">
+            </a>
+
+            <a class="navbar-brand bg-dark" href="#">keysGaming</a>
+            <button class="navbar-toggler d-lg-none" type="button" data-bs-toggle="collapse"
+                data-bs-target="#collapsibleNavId" aria-controls="collapsibleNavId" aria-expanded="false"
+                aria-label="Toggle navigation">
+                <span class="navbar-toggler-icon"></span>
+            </button>
+            <div class="collapse navbar-collapse" id="collapsibleNavId">
+                <ul class="navbar-nav me-auto mt-2 mt-lg-0">
+                    <li class="nav-item">
+                        <a class="nav-link active" href="index.html" aria-current="page">Home
+                            <span class="visually-hidden">(current)</span></a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="explorar.html">explorar</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="mis_pedidos.html">Mis pedidos</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="soporte.html">soporte</a>
+                    </li>
+                    
+                </ul>
+                <!-- <ul class="navbar-nav me-auto mt-2 mt-lg-0 " >
+                    <li class="nav-item">
+                        <a class="nav-link" href="#">Usuario</a>
+                    </li>
+                </ul> -->
+                <span id="sesionlink"><a class="nav-link text-light sesiontext" href="usuario.html">Usuario</a></span>
+
+            </div>
+        </div>
+    </nav>
+
+
+
+
+<div id="cambiar-nombre" class="container mt-5">
+  <h2>Cambiar Nombre de Usuario</h2>
+  <form>
+    <div class="form-group">
+      <label for="newUsername">Nuevo Nombre de Usuario:</label>
+      <input type="text" class="form-control" id="newUsername">
+    </div>
+    <button type="submit" class="btn btn-primary">Guardar Cambios</button>
+  </form>
+</div>
+
+<div id="cambiar-contraseña" class="container mt-5">
+  <h2>Cambiar Contraseña</h2>
+  <form>
+    <div class="form-group">
+      <label for="currentPassword">Contraseña Actual:</label>
+      <input type="password" class="form-control" id="currentPassword">
+    </div>
+    <div class="form-group">
+      <label for="newPassword">Nueva Contraseña:</label>
+      <input type="password" class="form-control" id="newPassword">
+    </div>
+    <button type="submit" class="btn btn-primary">Guardar Cambios</button>
+  </form>
+</div>
+
+<div id="cambiar-gmail" class="container mt-5">
+  <h2>Cambiar Correo Electrónico</h2>
+  <form>
+    <div class="form-group">
+      <label for="newEmail">Nuevo Correo Electrónico:</label>
+      <input type="email" class="form-control" id="newEmail">
+    </div>
+    <button type="submit" class="btn btn-primary">Guardar Cambios</button>
+  </form>
+</div>
+
+<div id="cambiar-telefono" class="container mt-5">
+  <h2>Cambiar Teléfono</h2>
+  <form>
+    <div class="form-group">
+      <label for="newPhone">Nuevo Número de Teléfono:</label>
+      <input type="text" class="form-control" id="newPhone">
+    </div>
+    <button type="submit" class="btn btn-primary">Guardar Cambios</button>
+  </form>
+</div>
+
+<script src="https://code.jquery.com/jquery-3.5.1.slim.min.js"></script>
+<script src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.5.4/dist/umd/popper.min.js"></script>
+<script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.5.2/js/bootstrap.min.js"></script>
+<footer class="bg-dark text-white text-center py-3 mt-5">
+    <p>© 2024 Soporte. Todos los derechos reservados.</p>
+</body>
+</html>
