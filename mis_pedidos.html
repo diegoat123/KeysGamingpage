@@ -10,7 +10,7 @@
 
     <!-- Latest compiled JavaScript -->
     <script src="js/bootstrap.bundle.min.js"></script>
-    <link rel="stylesheet" href="css/estilo.css">
+    
 </head>
 
 <body>
@@ -55,39 +55,57 @@
             </div>
         </div>
     </nav>
-<div class="container mt-5">
-  <h2>Pagos</h2>
-  <p>Si tienes problemas con los pagos, por favor contacta a nuestro equipo de soporte a través del formulario de contacto.</p>
+
+<div class="container">
+  <h1 class="mt-5">Carrito de Compra </h1>
+  
+  <div class="row mt-5">
+    <div class="col-md-8">
+      <div class="producto">
+        <div class="card">
+          <div class="row no-gutters">
+            <div class="col-md-4">
+              <img src="img/bioshock.jpg" class="card-img" alt="Producto">
+            </div>
+            <div class="col-md-8">
+              <div class="card-body">
+                <h5 class="card-title">bioshock</h5>
+                <p class="card-text"></p>
+                <p class="card-text">Precio: $50</p>
+                <button class="btn btn-danger">Eliminar</button>
+                <button class="btn btn-primary">ver</button>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+      
+      <!-- Puedes agregar más productos aquí -->
+      
+    </div>
+    <div class="col-md-4">
+      <div class="card">
+        <div class="card-body">
+          <h5 class="card-title">Resumen del Pedido</h5>
+          <ul class="list-group">
+            <li class="list-group-item d-flex justify-content-between align-items-center">
+              Subtotal
+              <span class="badge badge-primary badge-pill bg-dark">$50</span>
+            </li>
+            <li class="list-group-item d-flex justify-content-between align-items-center">
+              Envío
+              <span class="badge badge-primary badge-pill bg-dark">$10</span>
+            </li>
+            <li class="list-group-item d-flex justify-content-between align-items-center">
+              Total
+              <span class="badge badge-primary badge-pill bg-dark">$110</span>
+            </li>
+          </ul>
+          <button class="btn btn-success btn-block mt-3 bg-dark">Pagar</button>
+        </div>
+      </div>
+    </div>
+  </div>
 </div>
-
-<div id="cuenta-seguridad" class="container mt-5">
-  <h2>Cuenta y Seguridad</h2>
-  <p>Para temas relacionados con tu cuenta y seguridad, por favor revisa nuestra sección de preguntas frecuentes o contáctanos para obtener asistencia personalizada.</p>
 </div>
-
-<div class="container mt-5">
-  <h2>Pedidos</h2>
-  <p>Para consultas sobre pedidos realizados, tiempos de envío o cualquier otro asunto relacionado, por favor contáctanos o revisa la sección de seguimiento de pedidos en tu cuenta.</p>
-</div>
-
-<div  class="container mt-5">
-  <h2>Productos</h2>
-  <p>Si necesitas ayuda con un producto específico, por favor revisa la sección de ayuda del producto en nuestro sitio web o contáctanos para obtener asistencia adicional.</p>
-</div>
-
-<footer class="bg-dark text-white text-center py-3 mt-5">
-  <p>© 2024 Soporte. Todos los derechos reservados.</p>
-</footer>
-
-
-
-
-
-
-
-
-
-
-
 </body>
-</html>
