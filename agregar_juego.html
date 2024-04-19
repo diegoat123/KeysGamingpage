@@ -1,0 +1,155 @@
+<!DOCTYPE html>
+<html lang="es">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>keysGaming</title>
+    <!-- Latest compiled and minified CSS -->
+    <link href="css/bootstrap.min.css" rel="stylesheet">
+
+    <!-- Latest compiled JavaScript -->
+    <script src="js/bootstrap.bundle.min.js"></script>
+    <link rel="stylesheet" href="css/estilo.css">
+</head>
+
+<body>
+  <div class="container-fluid bg-light ">
+    <nav class="navbar navbar-expand-sm navbar-dark bg-dark">
+        <div class="container">
+
+            <a class="navbar-brand" href="#">
+                <img src="img/pclogo.png" alt="logo pagina" style="width:80px;">
+            </a>
+
+            <a class="navbar-brand bg-dark" href="#">keysGaming</a>
+            <button class="navbar-toggler d-lg-none" type="button" data-bs-toggle="collapse"
+                data-bs-target="#collapsibleNavId" aria-controls="collapsibleNavId" aria-expanded="false"
+                aria-label="Toggle navigation">
+                <span class="navbar-toggler-icon"></span>
+            </button>
+            <div class="collapse navbar-collapse" id="collapsibleNavId">
+                <ul class="navbar-nav me-auto mt-2 mt-lg-0">
+                    <li class="nav-item">
+                        <a class="nav-link active" href="index.html" aria-current="page">Home
+                            <span class="visually-hidden">(current)</span></a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="explorar.html">explorar</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="mis_pedidos.html">Mis pedidos</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="soporte.html">soporte</a>
+                    </li>
+                    <a class="nav-link" href="/admin/añadir.html">administrador</a>
+                  </li>
+                  
+                </ul>
+                <!-- <ul class="navbar-nav me-auto mt-2 mt-lg-0 " >
+                    <li class="nav-item">
+                        <a class="nav-link" href="#">Usuario</a>
+                    </li>
+                </ul> -->
+                <span id="sesionlink"><a class="nav-link text-light sesiontext" href="usuario.html">Usuario</a></span>
+
+            </div>
+        </div>
+    </nav>
+    <div class="container mt-5">
+        <h1 class="mb-4">Agregar Nuevo Juego</h1>
+        <div class="row">
+          <div class="col-md-6">
+            <!-- Formulario para agregar el juego -->
+            <form>
+              <div class="form-group">
+                <label for="nombreJuego">Nombre del Juego</label>
+                <input type="text" class="form-control" id="nombreJuego" placeholder="Ingrese el nombre del juego" required>
+              </div>
+              <div class="form-group">
+                <label for="descripcionJuego">Descripción del Juego</label>
+                <textarea class="form-control" id="descripcionJuego" rows="5" placeholder="Ingrese una descripción del juego" required></textarea>
+              </div>
+              <div class="form-group">
+                <label for="url">url del trailer</label>
+                <textarea class="form-control" id="descripcionJuego" rows="5" placeholder="Ingrese una descripción del juego" required></textarea>
+              </div>
+              <div class="form-group">
+                <label for="compañia">Nombre de compañia</label>
+                <input type="text" class="form-control" id="compañia">
+              </div>
+              <div class="form-group">
+                <label for="categoriaJuego">Categoría del Juego</label>
+                <select class="form-control" id="categoriaJuego" required>
+                  <option value="">Seleccione una categoría</option>
+                  <option>Acción</option>
+                  <option>Aventura</option>
+                  <option>Deportes</option>
+                  <option>Estrategia</option>
+                  <option>Indie</option>
+                  <option>RPG</option>
+                  <option>Sigilo</option>
+                  <option>Simulación</option>
+                  <option>Supervivencia</option>
+                  <option>Otro</option>
+                </select>
+              </div>
+
+              <div class="form-group">
+                <label for="categoriaJuego">clasificacion</label>
+                <select class="form-control" id="clasificacion" required>
+                  <option value="">clasificacion</option>
+                  <option> +18</option>
+                  <option>+16</option>
+                  <option>+13</option>
+                  <option>todas las edades</option>
+                </select>
+              </div>
+
+
+
+              <div class="form-group">
+                <label for="plataformaJuego">Plataforma del Juego</label>
+                <div class="form-check">
+                  <input class="form-check-input" type="checkbox" id="plataformaPC">
+                  <label class="form-check-label" for="plataformaPC">
+                    PC
+                  </label>
+                </div>
+                <div class="form-check">
+                  <input class="form-check-input" type="checkbox" id="plataformaPS4">
+                  <label class="form-check-label" for="plataformaPS4">
+                    PlayStation 4
+                  </label>
+                </div>
+                <div class="form-check">
+                  <input class="form-check-input" type="checkbox" id="plataformaXbox">
+                  <label class="form-check-label" for="plataformaXbox">
+                    Xbox One
+                  </label>
+                </div>
+                <div class="form-check">
+                  <input class="form-check-input" type="checkbox" id="plataformaSwitch">
+                  <label class="form-check-label" for="plataformaSwitch">
+                    Nintendo Switch
+                  </label>
+                </div>
+                <!-- Agrega más plataformas según tus necesidades -->
+              </div>
+              <div class="form-group">
+                <label for="fechaLanzamiento">Fecha de Lanzamiento</label>
+                <input type="date" class="form-control" id="fechaLanzamiento" required>
+              </div>
+              <a href="explorar.html" class="btn btn-danger">cancelar</a>
+
+            </form>
+          </div>
+        </div>
+      </div>
+
+<footer class="bg-dark text-white text-center py-3 mt-5  ">
+    <p>©keysgaming 2024 Soporte. Todos los derechos reservados.</p>
+</body>
+
+</html>
