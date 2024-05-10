@@ -21,7 +21,10 @@ $('#formulario_juego').validate({
           max:100
        },
 
-       clasificacion: "required"
+       clasificacion: "required",
+       categoriaJuego:"categoria"
+       
+       
     },
     messages: {           
         nombreJuego: {
@@ -41,19 +44,23 @@ $('#formulario_juego').validate({
        },
 
     },
+    categoriaJuego:{
+      required:"selecciones una categoria"
+    }
 
 
  });
 
 $("#enviarJuego").click(function(){
-if($("formulario_juego").valid()==false){
- return;
+if($("formulario_juego").valid()== false){
+   return;
 }
 
-     let nombre = $("#nombreJuego").val()
+     let nombreJuego = $("#nombreJuego").val()
      let descripcionJuego = $("#descripcionJuego").val()
      let compañia = $("#compañia").val()
      let clasificacion =$("#clasificacion")
+     let categoriaJuego=$("categoriaJuego")
 
 })
 

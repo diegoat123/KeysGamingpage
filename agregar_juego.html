@@ -76,11 +76,11 @@
               </div>
               <div class="form-group">
                 <label for="compañia">Nombre de compañia</label>
-                <input type="text" class="form-control" id="compañia" name="compañia">
+                <input type="text" class="form-control" id="compañia" name="compañia"required>
               </div>
               <div class="form-group">
                 <label for="categoriaJuego">Categoría del Juego</label>
-                <select class="form-control" id="categoriaJuego" name="categoriaJuego" >
+                <select class="form-control" id="categoriaJuego" name="categoriaJuego" required>
                   <option value="">Seleccione una categoría</option>
                   <option>Acción</option>
                   <option>Aventura</option>
@@ -97,7 +97,7 @@
 
               <div class="form-group">
                 <label for="categoriaJuego">clasificacion</label>
-                <select class="form-control" id="clasificacion" name="clasificacion" >
+                <select class="form-control" id="clasificacion" name="clasificacion"required>
                   <option value="">clasificacion</option>
                   <option> +18</option>
                   <option>+16</option>
@@ -129,7 +129,7 @@
                   </label>
                 </div>
                 <div class="form-check">
-                  <input class="form-check-input" type="checkbox" id="plataformaSwitch">
+                  <input class="form-check-input" type="checkbox" id="plataformaSwitch" >
                   <label class="form-check-label" for="plataformaSwitch">
                     Nintendo Switch
                   </label>
@@ -138,9 +138,9 @@
               </div>
               <div class="form-group">
                 <label for="fechaLanzamiento">Fecha de Lanzamiento</label>
-                <input type="date" class="form-control" id="fechaLanzamiento" name="fechaLanzamiento" >
+                <input type="date" class="form-control" id="fechaLanzamiento" name="fechaLanzamiento"  required >
               </div>
-              <button type="submit" class="btn btn-primary btn-block" value="enviarJuego">Enviar</button>            
+              <button type="submit" class="btn btn-primary btn-block" id="enviarJuego"value="enviarJuego">Enviar</button>            
 
               <a href="explorar.html" class="btn btn-danger">cancelar</a>
 
